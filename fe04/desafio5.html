@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Desafio 5 — Boletim Completo com Entidades</title>
+  <style>
+    body { font-family: system-ui, sans-serif; margin: 0 auto; padding: 16px; max-width: 760px; color: #222; }
+    .wrap { overflow-x: auto; }
+    table { border-collapse: collapse; width: 100%; }
+    caption { font-weight: bold; font-size: 1.05rem; padding: 8px 0; text-align: left; }
+    th, td { border: 1px solid #bbb; padding: 8px 10px; text-align: center; }
+    thead th { background: #2b4c7e; color: #fff; }
+    tbody th[scope="row"] { background: #eef2f8; text-align: left; }
+    tfoot th, tfoot td { background: #f3f3f3; font-weight: bold; }
+    tfoot th { text-align: left; }
+    @media print { thead th, tbody th[scope="row"], tfoot th, tfoot td { -webkit-print-color-adjust: exact; print-color-adjust: exact; } }
+  </style>
+</head>
+<body>
+<div class="wrap">
+<table>
+  <caption>Boletim Final &mdash; Front-End 2026</caption>
+  <thead>
+    <tr>
+      <th scope="col">Aluno</th>
+      <th scope="col">HTML</th>
+      <th scope="col">CSS</th>
+      <th scope="col">JavaScript</th>
+      <th scope="col">Média</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr><th scope="row">Ana</th><td>9,0</td><td>8,5</td><td>8,0</td><td>8,5</td></tr>
+    <tr><th scope="row">João</th><td>7,5</td><td>9,0</td><td>8,5</td><td>8,33</td></tr>
+    <tr><th scope="row">Marina</th><td>8,5</td><td>9,5</td><td>9,0</td><td>9,0</td></tr>
+  </tbody>
+  <tfoot>
+    <tr>
+      <th scope="row">Média da turma</th>
+      <td>8,33</td><td>9,0</td><td>8,5</td><td>8,61</td>
+    </tr>
+  </tfoot>
+</table>
+</div>
+</body>
+</html>

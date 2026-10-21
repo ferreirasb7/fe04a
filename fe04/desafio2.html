@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Desafio 2 — Agenda Semanal de Estudos</title>
+  <style>
+    body { font-family: system-ui, sans-serif; margin: 0 auto; padding: 16px; max-width: 760px; color: #222; }
+    .wrap { overflow-x: auto; }
+    table { border-collapse: collapse; width: 100%; }
+    caption { font-weight: bold; font-size: 1.05rem; padding: 8px 0; text-align: left; }
+    th, td { border: 1px solid #bbb; padding: 8px 10px; text-align: center; }
+    thead th { background: #2b4c7e; color: #fff; }
+    tbody th[scope="row"] { background: #eef2f8; text-align: left; white-space: nowrap; }
+    @media print { thead th, tbody th[scope="row"] { -webkit-print-color-adjust: exact; print-color-adjust: exact; } }
+  </style>
+</head>
+<body>
+<div class="wrap">
+<table>
+  <caption>Horário das Aulas &mdash; Turma Front-End 2026</caption>
+  <thead>
+    <tr>
+      <th scope="col">Horário</th>
+      <th scope="col">Segunda</th>
+      <th scope="col">Terça</th>
+      <th scope="col">Quarta</th>
+      <th scope="col">Quinta</th>
+      <th scope="col">Sexta</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <th scope="row">08h&nbsp;&ndash;&nbsp;10h</th>
+      <td>HTML</td><td>CSS</td><td>JavaScript</td><td>HTML</td><td>Projeto</td>
+    </tr>
+    <tr>
+      <th scope="row">10h&nbsp;&ndash;&nbsp;12h</th>
+      <td>CSS</td><td>JavaScript</td><td>HTML</td><td>Projeto</td><td>Projeto</td>
+    </tr>
+    <tr>
+      <th scope="row">14h&nbsp;&ndash;&nbsp;16h</th>
+      <td>Projeto</td><td>Projeto</td><td>Projeto</td><td>CSS</td><td>JavaScript</td>
+    </tr>
+  </tbody>
+</table>
+</div>
+</body>
+</html>
